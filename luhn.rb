@@ -23,7 +23,7 @@ module Luhn
 
     #convert integer to a reversed array of digits
     def digit_array(card_number)
-      card_number.to_s.reverse.split(//).map{|digit| digit.to_i}
+      card_number.to_s.gsub(/ +/, '').reverse.split(//).map{|digit| digit.to_i}
     end
 
     # boolean whether the digit_sum modulo 10 is 0

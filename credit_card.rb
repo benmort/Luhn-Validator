@@ -1,6 +1,5 @@
-require "../modules/card_type"
-require "../modules/luhn"
-
+require File.dirname(__FILE__)+"/card_type.rb"
+require File.dirname(__FILE__)+"/luhn.rb"
 class CreditCard
 
 include CardType
