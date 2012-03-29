@@ -1,6 +1,6 @@
 render_card_objects();
 
 function render_card_objects(){
-  $(".result").html("<%= escape_javascript (render :partial => "results", :object => @cc_objects) %>")
+  $(".results").html("<%= escape_javascript (render :partial => "results", :object => @cc_objects) %>")
   $("#log").html("Completed").delay(2000).fadeOut();
 }

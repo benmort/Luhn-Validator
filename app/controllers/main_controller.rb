@@ -18,4 +18,8 @@ class MainController < ApplicationController
     end
   end
 
+  def data
+    render :layout => false
+  end
+
 end
