@@ -1,5 +1,7 @@
 > Usage
-To 
+To run the command line prompt
+$ ruby prompt.rb
+then input the data block
 
 > Website
 You can see this repo in action at http://luhnvalidation.herokuapp.com
