@@ -1,0 +1,25 @@
+credit_cards:
+    - number: 4111111111111111
+      type: VISA
+      validity: valid
+    - number: 4111111111111
+      type: VISA
+      validity: invalid
+    - number: 4012888888881881
+      type: VISA
+      validity: valid
+    - number: 378282246310005
+      type: AMEX
+      validity: valid
+    - number: 6011111111111117
+      type: Discover
+      validity: valid
+    - number: 5105105105105100
+      type: MasterCard
+      validity: valid
+    - number: 5105105105105106
+      type: MasterCard
+      validity: invalid
+    - number: 9111111111111111
+      type: Unknown
+      validity: invalid
